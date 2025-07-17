@@ -38,8 +38,11 @@ public class Fifth {
 		
 		System.out.println(gold.getprice());
 		System.out.println(gold6.getprice());
+		System.out.println("==");
 		System.out.println(gold==gold2);
 		System.out.println(gold.price==gold2.price);
+		System.out.println(".equals");
+		System.out.println(gold.equals(gold2));
 
 	}
 }
@@ -47,7 +50,7 @@ public class Fifth {
 
 class Gold
 {
-	static int price=100;
+	static int price=100;//1000
 	
 	public static  synchronized void increase()
 	{
@@ -58,6 +61,13 @@ class Gold
 	{
 		
 		return this.price;
+	}
+	
+	public boolean equals(Object o)
+	{
+		Gold gold=(Gold)o;
+	
+		return this.price==gold.price;
 	}
 }
 
