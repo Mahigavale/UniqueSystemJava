@@ -17,7 +17,7 @@ public class Predicateexample {
 						flag = false;
 						break;
 					}
-
+                      return true;
 				}
 				if (flag) {
 					return true;
