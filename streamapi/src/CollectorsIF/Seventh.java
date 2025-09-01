@@ -18,6 +18,7 @@ public class Seventh {
 		
 		//"abc","def","ghi","jkl"
 		//["ABC","DEF","GHI","JKL"];
+		//ABCDEFGHIJKL :SB
 		
 		
 		
