@@ -9,6 +9,8 @@ public class Employee {
 	
 	private double salary;
 	
+	private String city;
+	
 	
 	public Employee()
 	{
