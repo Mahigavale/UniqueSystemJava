@@ -22,6 +22,10 @@ public class Employee {
 		
 	}
 	
+	private Object demor()
+	{
+		return null;
+	}
 	
 	protected Employee(StringBuffer j, int k, int l)
 	{
