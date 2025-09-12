@@ -12,7 +12,7 @@ public class Batch_one {
 		Class.forName("com.mysql.cj.jdbc.Driver");  
 
 		
-		try(		Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc","root","root");
+		try(	  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc","root","root");
 				   Scanner scan=new Scanner(System.in);
 				   PreparedStatement stmt=con.prepareStatement("insert into student values(?,?);")
 				)
